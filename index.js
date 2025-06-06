@@ -2,7 +2,7 @@ function main() {
 	var input1 = document.getElementById('input1');
 	var input2 = document.getElementById('input2');
 	var operation = document.getElementById('operation');
-	
+	handleOperationChange()
 }
 
 function handleOperationChange() {
@@ -10,6 +10,7 @@ function handleOperationChange() {
 	var result = document.getElementById('result');
 
 	calculate.onclick= () => {
+		debugger;
 		var a = input1.value;
 		var b = input2.value;
 		var op = operation.value;
